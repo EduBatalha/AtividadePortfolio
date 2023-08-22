@@ -193,14 +193,12 @@
 
 .avatarandicons {
   position: absolute;
-  height: 60%;
-  width: 34%;
-  top: 21%;
-  left: 50%;
+  height: 600px;
+  width: 555px;
+  top: 30px;
+  left: 700px;
   transform: translateX(-50%);
-  max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
 }
 
 
