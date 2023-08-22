@@ -44,6 +44,25 @@
   color: #7b4ae2;
 }
 
+.front-end-developer {
+  position: absolute;
+  top: 460px;
+  left: 60px;
+  font-size: 20px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF80;
+}
+
+.socialmedias-icon {
+  position: absolute;
+  top: 510px;
+  left: 60px;
+  width: 130px;
+  height: 34px;
+}
+
 /* Definição de estilos para a seção de introdução */
 .tophometexts {
   position: absolute;
@@ -55,8 +74,8 @@
 
 .topsection {
   position: absolute;
-  top: 375px;
-  left: 140px;
+  top: 260px;
+  left: 60px;
   width: 410px;
   height: 190px;
   color: #fff;
@@ -120,10 +139,10 @@
   position: absolute;
   height: 76;
   width: 174%;
-  top: 9%;
+  top: 1px;
   right: 0;
   bottom: 15%;
-  left: 83%;
+  left: 40px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -139,28 +158,29 @@
 
 .group-parent {
   position: absolute;
-  top: 495px;
-  left: 1000px;
-  width: 196px;
-  height: 73px;
+  top: 380px;
+  left: 1050px;
+  width: 180px;
+  height: 65px;
   font-size: 16px;
   color: rgba(123, 74, 226, 0.5);
 }
 
 /* Navbar */
 .navbar {
-  top: auto;
-  left: 0;
-  width: 100%;
-  max-width: 100%
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1200px;
   height: 65px;
   background-color: #7B4AE20D;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  margin-left: 2em;
-  margin-right: 2em;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 1000;
 }
 
 .logo {
@@ -191,35 +211,12 @@
   color: rgba(123, 74, 226, 0.5);
 }
 
+/* avatar */
 .avatarandicons {
   position: absolute;
-  height: 600px;
-  width: 555px;
-  top: 30px;
-  left: 700px;
+  height: 530px;
+  width: 510px;
+  top: 150px;
+  left: 50%;
   transform: translateX(-50%);
-  overflow: hidden;
-}
-
-
-.front-end-developer {
-  position: absolute;
-  top: 579.24px;
-  left: 140px;
-  font-size: 20px;
-  text-align: justify;
-  display: flex;
-  align-items: center;
-  width: 411.33px;
-  height: 37px;
-  transform: rotate(-0.03deg);
-  transform-origin: 0 0;
-}
-
-.socialmedias-icon {
-  position: absolute;
-  top: 641px;
-  left: 140px;
-  width: 130px;
-  height: 34px;
 }
