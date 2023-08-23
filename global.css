@@ -5,4 +5,5 @@ body {
   padding: 0;
   background-color: #090E16;
   font-family: Raleway;
+  overflow-x: hidden;
 }

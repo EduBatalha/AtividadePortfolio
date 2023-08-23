@@ -1,10 +1,12 @@
+/*Experiencias*/
 .fundo-experiencia {
-  	position: absolute;
+  	position: relative;
   	border-radius: 16px;
   	background-color: rgba(123, 74, 226, 0.1);
-  	width: 898px;
+  	width: 1080;
   	height: 110px;
 }
+
 .desenvolvedor {
   	position: absolute;
   	top: 27px;
@@ -15,6 +17,7 @@
   	width: 205px;
   	height: 25px;
 }
+
 .front-end {
   	margin: 0;
   	position: absolute;
@@ -26,25 +29,30 @@
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  	width: 205.55px;
+  	width: 205px;
   	height: 37px;
-  	transform-origin: 0 0;
 }
+
 .rectangle-parent {
   	position: absolute;
+  	top: 0px;
+  	left: 0px;
   	width: 898px;
   	height: 110px;
 }
+
 .dezenas-de-projetos {
   	position: absolute;
+  	top: 0.12px;
+  	left: 0.64px;
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  	width: 205px;
-  	height: 25px;
-  	transform-origin: 0 0;
+  	width: 205.55px;
+  	height: 25.12px;
 }
-.experincias {
+
+.experiencias {
   	margin: 0;
   	position: absolute;
   	top: 18.12px;
@@ -55,24 +63,28 @@
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  	width: 205px;
+  	width: 205.55px;
   	height: 37px;
+  	transform:  rotate(-0.03deg);
   	transform-origin: 0 0;
 }
-.dezenas-de-projetos-e-parent {
+
+.dezenas-de-projetos-e-xp {
   	position: absolute;
   	top: 27px;
   	left: 346px;
-  	width: 206px;
-  	height: 55px;
+  	width: 206.21px;
+  	height: 55.12px;
 }
-.designer-freelancer-e-parent {
+
+.designer-freelancer {
   	position: absolute;
   	top: 27px;
   	left: 672px;
-  	width: 206px;
-  	height: 55px;
+  	width: 206.21px;
+  	height: 55.12px;
 }
+
 .experiencedescription {
   	position: absolute;
   	top: 332px;
@@ -81,6 +93,8 @@
   	height: 110px;
   	color: #7b4ae2;
 }
+
+/*cards*/
 .devcar-child {
   	position: absolute;
   	top: 0px;
@@ -91,21 +105,22 @@
   	width: 246px;
   	height: 200px;
 }
+
 .anos-como {
   	position: absolute;
-  	top: 114px;
-  	left: 20px;
+  	top: 114.12px;
+  	left: 20.64px;
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  	width: 205px;
-  	height: 25px;
-  	transform-origin: 0 0;
+  	width: 205.55px;
+  	height: 25.12px;
 }
+
 .programador {
   	margin: 0;
   	position: absolute;
-  	top: 132px;
+  	top: 132.12px;
   	left: 20px;
   	font-size: 32px;
   	font-weight: 700;
@@ -113,26 +128,24 @@
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  	width: 205px;
+  	width: 205.55px;
   	height: 37px;
-  	transform:  rotate(-0.03deg);
-  	transform-origin: 0 0;
 }
+
 .devcar {
   	position: absolute;
-  	top: 0px;
-  	left: 0px;
   	width: 246px;
   	height: 200px;
 }
+
 .codeicon {
   	position: absolute;
   	height: 32%;
-  	width: 31%;
+  	width: 30.89%;
   	top: 21%;
-  	right: 32;
+  	right: 32.11%;
   	bottom: 47%;
-  	left: 37%;
+  	left: 36.99%;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
@@ -154,11 +167,11 @@
 .projectsicon {
   	position: absolute;
   	height: 32%;
-  	width: 26%;
+  	width: 26.02%;
   	top: 21%;
-  	right: 37%;
+  	right: 36.99%;
   	bottom: 47%;
-  	left: 37%;
+  	left: 36.99%;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
@@ -170,18 +183,20 @@
   	width: 246px;
   	height: 200px;
 }
+
 .designicon {
   	position: absolute;
   	height: 32%;
-  	width: 31%;
+  	width: 30.89%;
   	top: 21%;
-  	right: 37%;
+  	right: 36.99%;
   	bottom: 47%;
-  	left: 32%;
+  	left: 32.11%;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
 }
+
 .designcard {
   	position: absolute;
   	top: 100px;
@@ -189,30 +204,41 @@
   	width: 246px;
   	height: 200px;
 }
+
 .experiencesection-child {
   	position: absolute;
   	border-top: 1px solid rgba(123, 74, 226, 0.2);
   	box-sizing: border-box;
   	width: 1921px;
-    display: none;
-}
-.experiencesection-item {
-  	position: absolute;
-  	top: 541px;
-  	border-top: 1px solid rgba(123, 74, 226, 0.2);
-  	box-sizing: border-box;
-  	width: 100%;
   	height: 1px;
-    display: none
 }
 
+.experiencesection-item {
+  	position: absolute;
+  	top: 541.5px;
+  	border-top: 1px solid rgba(123, 74, 226, 0.2);
+  	box-sizing: border-box;
+  	width: 1921px;
+  	height: 1px;
+}
+
+/*tela*/
 .experiencesection {
-  position: relative;
-  top: -500px;
-  right: 312px;
-  width: 100%;
-  height: 542px;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 26%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 542px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Raleway;
+}
+
+@media (max-width: 600px) {
+    .experiencesection {
+        height: auto;
+        width: auto;
+    }
 }
