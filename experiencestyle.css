@@ -1,0 +1,217 @@
+.fundo-experiencia {
+  	position: absolute;
+  	border-radius: 16px;
+  	background-color: rgba(123, 74, 226, 0.1);
+  	width: 898px;
+  	height: 110px;
+}
+.desenvolvedor {
+  	position: absolute;
+  	top: 27px;
+  	left: 20px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205px;
+  	height: 25px;
+}
+.front-end {
+  	margin: 0;
+  	position: absolute;
+  	top: 45px;
+  	left: 20px;
+  	font-size: 32px;
+  	font-weight: 700;
+  	font-family: inherit;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205.55px;
+  	height: 37px;
+  	transform-origin: 0 0;
+}
+.rectangle-parent {
+  	position: absolute;
+  	width: 898px;
+  	height: 110px;
+}
+.dezenas-de-projetos {
+  	position: absolute;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205px;
+  	height: 25px;
+  	transform-origin: 0 0;
+}
+.experincias {
+  	margin: 0;
+  	position: absolute;
+  	top: 18.12px;
+  	left: 0px;
+  	font-size: 32px;
+  	font-weight: 700;
+  	font-family: inherit;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205px;
+  	height: 37px;
+  	transform-origin: 0 0;
+}
+.dezenas-de-projetos-e-parent {
+  	position: absolute;
+  	top: 27px;
+  	left: 346px;
+  	width: 206px;
+  	height: 55px;
+}
+.designer-freelancer-e-parent {
+  	position: absolute;
+  	top: 27px;
+  	left: 672px;
+  	width: 206px;
+  	height: 55px;
+}
+.experiencedescription {
+  	position: absolute;
+  	top: 332px;
+  	left: 511px;
+  	width: 898px;
+  	height: 110px;
+  	color: #7b4ae2;
+}
+.devcar-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 16px;
+  	border: 1px solid rgba(123, 74, 226, 0.5);
+  	box-sizing: border-box;
+  	width: 246px;
+  	height: 200px;
+}
+.anos-como {
+  	position: absolute;
+  	top: 114px;
+  	left: 20px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205px;
+  	height: 25px;
+  	transform-origin: 0 0;
+}
+.programador {
+  	margin: 0;
+  	position: absolute;
+  	top: 132px;
+  	left: 20px;
+  	font-size: 32px;
+  	font-weight: 700;
+  	font-family: inherit;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 205px;
+  	height: 37px;
+  	transform:  rotate(-0.03deg);
+  	transform-origin: 0 0;
+}
+.devcar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 246px;
+  	height: 200px;
+}
+.codeicon {
+  	position: absolute;
+  	height: 32%;
+  	width: 31%;
+  	top: 21%;
+  	right: 32;
+  	bottom: 47%;
+  	left: 37%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.devcard {
+  	position: absolute;
+  	top: 100px;
+  	left: 511px;
+  	width: 246px;
+  	height: 200px;
+}
+.card-meio {
+  	position: absolute;
+  	border-radius: 16px;
+  	background-color: rgba(123, 74, 226, 0.1);
+  	width: 246px;
+  	height: 200px;
+}
+.projectsicon {
+  	position: absolute;
+  	height: 32%;
+  	width: 26%;
+  	top: 21%;
+  	right: 37%;
+  	bottom: 47%;
+  	left: 37%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.projectscard {
+  	position: absolute;
+  	top: 100px;
+  	left: 837px;
+  	width: 246px;
+  	height: 200px;
+}
+.designicon {
+  	position: absolute;
+  	height: 32%;
+  	width: 31%;
+  	top: 21%;
+  	right: 37%;
+  	bottom: 47%;
+  	left: 32%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.designcard {
+  	position: absolute;
+  	top: 100px;
+  	left: 1163px;
+  	width: 246px;
+  	height: 200px;
+}
+.experiencesection-child {
+  	position: absolute;
+  	border-top: 1px solid rgba(123, 74, 226, 0.2);
+  	box-sizing: border-box;
+  	width: 1921px;
+    display: none;
+}
+.experiencesection-item {
+  	position: absolute;
+  	top: 541px;
+  	border-top: 1px solid rgba(123, 74, 226, 0.2);
+  	box-sizing: border-box;
+  	width: 100%;
+  	height: 1px;
+    display: none
+}
+.experiencesection {
+  position: relative;
+  top: 750px;
+  right: 312px;
+  width: 100%;
+  height: 542px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
