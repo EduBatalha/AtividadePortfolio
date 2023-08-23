@@ -25,7 +25,7 @@
     left:24px;
   }
 
-  .rectangle-parent{
+  .saudacoes{
     top: 450px;
     left: 24px
   }
@@ -73,6 +73,7 @@
     width: auto;
     max-width: 100%;
     text-align: center;
+    top: 430px;
   }
 
   .cvdownload{

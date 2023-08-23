@@ -47,6 +47,16 @@
 
 
 /*Informações na esquera*/
+.saudacoes {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 196px;
+  	height: 73px;
+  	font-size: 16px;
+  	color: rgba(123, 74, 226, 0.5);
+}
+
 .henrique-sousa {
   	position: absolute;
   	top: 40px;
@@ -137,6 +147,13 @@
 
 
 /*Informações na direita*/
+
+.group-parent {
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+
 .group-item {
   	position: absolute;
   	border-radius: 16px;
@@ -171,6 +188,8 @@
 }
 
 .rectangle-group {
+    top: 0;
+    left: 0;
   	position: absolute;
   	top: 29px;
   	width: 196px;
@@ -203,16 +222,8 @@
   	left: 86px;
   	width: 95px;
   	height: 21px;
-}
-
-.group-parent {
-  	position: absolute;
-  	top: 420px;
-  	left: 1000px;
-  	width: 196px;
-  	height: 73px;
-  	font-size: 16px;
-  	color: rgba(123, 74, 226, 0.5);
+    top: 0;
+    left: 0;
 }
 
 
@@ -226,11 +237,4 @@
   height: 1080px;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.5);
-}
-
-@media (max-width: 600px) {
-    .topo {
-        height: auto;
-        width: auto;
-    }
 }
