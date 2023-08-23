@@ -1,0 +1,229 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 65px;
+  background-color: #7B4AE20D;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  border-radius: 16px;
+  z-index: 1000;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 90%;
+  max-width: 90%;
+  overflow: hidden;
+  max-height: 100%;
+  margin-right: 10px;
+  padding-left: 2em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2em;
+}
+
+.nav-links b,
+.nav-links div {
+  cursor: pointer;
+  color: rgba(123, 74, 226, 0.5);
+}
+
+
+/*Informações na esquera*/
+.henrique-sousa {
+  	position: absolute;
+  	top: 40px;
+  	font-weight: 800;
+  	display:block;
+  	width: 410px;
+  	height: 120px;
+    font-size: 46px;
+    color: #fff;
+}
+
+.sousa {
+    position: relative;
+    bottom: 50px;
+}
+
+.group-child {
+  	position: absolute;
+  	border-radius: 16px;
+  	background-color: rgba(123, 74, 226, 0.1);
+  	width: 160px;
+  	height: 45px;
+}
+.saudaes {
+  	position: absolute;
+  	top: 5px;
+  	left: 10px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 140px;
+  	height: 36px;
+}
+.rectangle-parent {
+  	position: relative;
+  	width: 160px;
+  	height: 45px;
+  	text-align: center;
+  	font-size: 20px;
+  	color: #7b4ae2;
+    top: 35px;
+}
+.tophometexts {
+  	position: absolute;
+  	width: 400px;
+  	height: 170px;
+}
+
+.topsection {
+  	position: absolute;
+  	top: 280px;
+  	left: 100px;
+  	width: 400px;
+  	height: 170px;
+}
+
+.front-end-developer {
+  position: relative;
+  color: #FFFFFF80;
+  top: 200px;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  align-items: center;
+}
+
+.socialmedias-icon {
+  	position: relative;
+  	top: 220px;
+  	width: 130px;
+  	height: 34px;
+}
+
+
+/*Avatar*/
+.avatarandicons {
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+
+/*Informações na direita*/
+.group-item {
+  	position: absolute;
+  	border-radius: 16px;
+  	border: 1px solid rgba(123, 74, 226, 0.5);
+  	box-sizing: border-box;
+  	width: 196px;
+  	height: 44px;
+}
+
+.vamos-conversar {
+  	position: absolute;
+  	top: 14px;
+  	left: 48px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 133px;
+  	height: 16px;
+}
+
+.whatsapplogo-icon {
+  	position: absolute;
+  	height: 54%;
+  	width: 12%;
+  	top: 23%;
+  	right: 80%;
+  	bottom: 22%;
+  	left: 8%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+.rectangle-group {
+  	position: absolute;
+  	top: 29px;
+  	width: 196px;
+  	height: 44px;
+}
+
+.baixar-cv {
+  	position: absolute;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 75px;
+  	height: 20px;
+}
+
+.arrowlinedown-icon {
+  	position: absolute;
+  	height: 76%;
+  	width: 16.84%;
+  	top: 9.52%;
+  	bottom: 14%;
+  	left: 83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+.cvdownload {
+  	position: absolute;
+  	left: 86px;
+  	width: 95px;
+  	height: 21px;
+}
+
+.group-parent {
+  	position: absolute;
+  	top: 420px;
+  	left: 1000px;
+  	width: 196px;
+  	height: 73px;
+  	font-size: 16px;
+  	color: rgba(123, 74, 226, 0.5);
+}
+
+
+/*tela*/
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #090e16;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.5);
+}
