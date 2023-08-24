@@ -1,104 +1,196 @@
-/*Experiencias*/
-.fundo-experiencia {
-  	position: relative;
-  	border-radius: 16px;
-  	background-color: rgba(123, 74, 226, 0.1);
-  	width: 1080;
-  	height: 110px;
+/*tela*/
+.experiencesection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: Raleway;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
+
+/*Experiencias*/
+.fundo-experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    background-color: #7B4AE21A;
+    width: 100%; /* Usando largura de 100% para que o elemento se ajuste ao contêiner */
+    max-width: 1080px;
+    height: 6.8em;
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+
+/*devfront*/
 .desenvolvedor {
-  	position: absolute;
-  	top: 27px;
-  	left: 20px;
+  	position: relative;
   	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 205px;
-  	height: 25px;
+    left: 1.2em;
 }
 
 .front-end {
-  	margin: 0;
-  	position: absolute;
-  	top: 45px;
-  	left: 20px;
+    margin: 0;
+  	position: relative;
   	font-size: 32px;
-  	font-weight: 700;
   	font-family: inherit;
   	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 205px;
-  	height: 37px;
 }
 
-.rectangle-parent {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 898px;
-  	height: 110px;
+.dev-front {
+  	position: relative;
+    color: #7B4AE2;
 }
 
+
+/*projetos e experiencia*/
 .dezenas-de-projetos {
-  	position: absolute;
-  	top: 0.12px;
-  	left: 0.64px;
+  	position: relative;
   	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 205.55px;
-  	height: 25.12px;
+    left: 1em;
 }
 
 .experiencias {
-  	margin: 0;
-  	position: absolute;
-  	top: 18.12px;
-  	left: 0px;
+    margin: 0;
+  	position: relative;
   	font-size: 32px;
-  	font-weight: 700;
-  	font-family: inherit;
   	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 205.55px;
-  	height: 37px;
-  	transform:  rotate(-0.03deg);
-  	transform-origin: 0 0;
 }
 
 .dezenas-de-projetos-e-xp {
-  	position: absolute;
-  	top: 27px;
-  	left: 346px;
-  	width: 206.21px;
-  	height: 55.12px;
+  	position: relative;
+    color: #7B4AE2;
 }
 
+
+/*designer freelancer*/
 .designer-freelancer {
-  	position: absolute;
-  	top: 27px;
-  	left: 672px;
-  	width: 206.21px;
-  	height: 55.12px;
+  	position: relative;
+    color: #7B4AE2;
 }
 
-.experiencedescription {
-  	position: absolute;
-  	top: 332px;
-  	left: 511px;
-  	width: 898px;
-  	height: 110px;
-  	color: #7b4ae2;
+.freelancer{
+  position:relative;
+  display:flex;
+}
+
+.ui{
+  margin: 0;
+  position: relative;
+  font-size: 32px;
+  display: flex;
 }
 
 /*cards*/
+
+
+/*card dev*/
 .devcar-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
+  	position: relative;
+  	border-radius: 16px;
+  	border: 1px solid rgba(123, 74, 226, 0.5);
+  	box-sizing: border-box;
+  	width: 246px;
+  	height: 200px;
+}
+
+.devcar {
+  	position: relative;
+  	width: 246px;
+  	height: 200px;
+}
+
+
+.codeicon {
+  position: relative;
+  height: 32%;
+  width: auto;
+  top: 2em;
+  left: -9.8em;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.devcard {
+  	position: relative;
+  	width: 246px;
+  	height: 200px;
+    display: flex;
+}
+
+.programador{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -3.5em;
+  font-size: 2em;
+}
+
+
+/*card meio*/
+.card-meio {
+  	position: relative;
+  	border-radius: 16px;
+  	background-color: rgba(123, 74, 226, 0.1);
+  	width: 246px;
+  	height: 200px;
+}
+.projectsicon {
+    position: relative;
+    height: 32%;
+    width: auto;
+    top: -17em;
+    max-width: 100%;
+    max-height: 100%;
+}
+.projectscard {
+  	position: relative;
+
+  	width: 246px;
+  	height: 200px;
+    display: flex;
+}
+
+.trabalhos{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -3.5em;
+  font-size: 2em;
+}
+
+
+/*card designer*/
+.designicon {
+  	position: relative;
+  	height: 32%;
+  	width: auto;
+    top: -10em;
+  	max-width: 100%;
+  	max-height: 100%;
+}
+
+.designcard {
+  	position: relative;
+  	width: 246px;
+  	height: 200px;
+}
+
+.des-car {
+  	position: relative;
+  	width: 246px;
+  	height: 200px;
+}
+
+.designcard-child {
+  	position: relative;
   	border-radius: 16px;
   	border: 1px solid rgba(123, 74, 226, 0.5);
   	box-sizing: border-box;
@@ -107,138 +199,16 @@
 }
 
 .anos-como {
-  	position: absolute;
-  	top: 114.12px;
-  	left: 20.64px;
-  	display: flex;
+  	position: relative;
   	align-items: center;
   	justify-content: center;
-  	width: 205.55px;
-  	height: 25.12px;
+    top: -5em;
 }
 
-.programador {
-  	margin: 0;
-  	position: absolute;
-  	top: 132.12px;
-  	left: 20px;
-  	font-size: 32px;
-  	font-weight: 700;
-  	font-family: inherit;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 205.55px;
-  	height: 37px;
-}
-
-.devcar {
-  	position: absolute;
-  	width: 246px;
-  	height: 200px;
-}
-
-.codeicon {
-  	position: absolute;
-  	height: 32%;
-  	width: 30.89%;
-  	top: 21%;
-  	right: 32.11%;
-  	bottom: 47%;
-  	left: 36.99%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.devcard {
-  	position: absolute;
-  	top: 100px;
-  	left: 511px;
-  	width: 246px;
-  	height: 200px;
-}
-.card-meio {
-  	position: absolute;
-  	border-radius: 16px;
-  	background-color: rgba(123, 74, 226, 0.1);
-  	width: 246px;
-  	height: 200px;
-}
-.projectsicon {
-  	position: absolute;
-  	height: 32%;
-  	width: 26.02%;
-  	top: 21%;
-  	right: 36.99%;
-  	bottom: 47%;
-  	left: 36.99%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.projectscard {
-  	position: absolute;
-  	top: 100px;
-  	left: 837px;
-  	width: 246px;
-  	height: 200px;
-}
-
-.designicon {
-  	position: absolute;
-  	height: 32%;
-  	width: 30.89%;
-  	top: 21%;
-  	right: 36.99%;
-  	bottom: 47%;
-  	left: 32.11%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-
-.designcard {
-  	position: absolute;
-  	top: 100px;
-  	left: 1163px;
-  	width: 246px;
-  	height: 200px;
-}
-
-.experiencesection-child {
-  	position: absolute;
-  	border-top: 1px solid rgba(123, 74, 226, 0.2);
-  	box-sizing: border-box;
-  	width: 1921px;
-  	height: 1px;
-}
-
-.experiencesection-item {
-  	position: absolute;
-  	top: 541.5px;
-  	border-top: 1px solid rgba(123, 74, 226, 0.2);
-  	box-sizing: border-box;
-  	width: 1921px;
-  	height: 1px;
-}
-
-/*tela*/
-.experiencesection {
-    position: absolute;
-    top: 800px;
-    left: 26%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 542px;
-    text-align: center;
-    font-size: 16px;
-    color: #fff;
-    font-family: Raleway;
-}
-
-@media (max-width: 600px) {
-    .experiencesection {
-        height: auto;
-        width: auto;
-    }
+.designer {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -3.5em;
+  font-size: 2em;
 }
