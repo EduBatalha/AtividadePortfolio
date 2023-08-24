@@ -1,20 +1,16 @@
 /* Navbar */
 .navbar {
-  position: relative;
   top: 1em;
-  left: 50%;
-  transform: translateX(-50%);
   width: 95%;
-  height: 65px;
+  height: 3em;
   background-color: #7B4AE20D;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 1.125em;
   border-radius: 16px;
   z-index: 1000;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em auto;
 }
 
 .logo {
@@ -33,7 +29,7 @@
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
   justify-content: flex-end;
   padding-right: 2em;
@@ -42,91 +38,111 @@
 .nav-links b,
 .nav-links div {
   cursor: pointer;
-  color: rgba(123, 74, 226, 0.5);
+  color: #FFFFFF80;
+}
+
+.nav-links b{
+  color: #7B4AE280;
+}
+
+
+/* Estilos para a seção topo */
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #090e16;
+  width: 100%;
+  padding: 2em 0; /* Espaçamento superior e inferior */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Contêiner para agrupar os elementos */
+.primeira-tela {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px; /* Espaçamento superior */
 }
 
 
 /*Informações na esquera*/
-.saudacoes {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 196px;
-  	height: 73px;
-  	font-size: 16px;
-  	color: rgba(123, 74, 226, 0.5);
+.henrique-sousa,
+.saudacoes
+.saudaes {
+  flex: 1;
+  text-align: left;
 }
 
-.henrique-sousa {
-  	position: absolute;
-  	top: 40px;
-  	font-weight: 800;
-  	display:block;
-  	width: 410px;
-  	height: 120px;
-    font-size: 46px;
-    color: #fff;
+.henrique-sousa{
+  position: relative;
+  top: -1em;
+  color: #fff;
+  font-size: 3.25em;
+  font-family: Raleway;
 }
 
-.sousa {
-    position: relative;
-    bottom: 50px;
+.sousa{
+  position: relative;
+  top: -1em;
+}
+
+.saudaes{
+  position: relative;
+  top: -1.8em;
+  left: 0.5em;
+  color: #7B4AE2;
+  font-size: 1.25em
 }
 
 .group-child {
-  	position: absolute;
+  	position: relative;
   	border-radius: 16px;
   	background-color: rgba(123, 74, 226, 0.1);
   	width: 160px;
   	height: 45px;
 }
-.saudaes {
-  	position: absolute;
-  	top: 5px;
-  	left: 10px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 140px;
-  	height: 36px;
-}
+
 .rectangle-parent {
   	position: relative;
   	width: 160px;
   	height: 45px;
   	text-align: center;
-  	font-size: 20px;
+  	font-size: 1.25;
   	color: #7b4ae2;
     top: 35px;
 }
 .tophometexts {
-  	position: absolute;
+  	position: relative;
   	width: 400px;
   	height: 170px;
 }
 
 .topsection {
-  	position: absolute;
-  	top: 280px;
-  	left: 100px;
-  	width: 400px;
-  	height: 170px;
+  position:relative;
+  text-align: left;
+  flex: 1;
+  left: -2em;
+  top: -3em;
 }
 
 .front-end-developer {
   position: relative;
   color: #FFFFFF80;
-  top: 200px;
-  font-size: 18px;
-  width: 20px;
-  height: 20px;
-  display: inline;
-  align-items: center;
+  top: 2em;
+  font-size: 1.125em;
+  width: auto;
+  height: auto;
+  display: inline-flex;
 }
 
 .socialmedias-icon {
   	position: relative;
-  	top: 220px;
+  	top: 3em;
   	width: 130px;
   	height: 34px;
 }
@@ -134,28 +150,30 @@
 
 /*Avatar*/
 .avatarandicons {
-    position: absolute;
-    height: 70%;
-    width: 70%;
-    top: 160px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+  width: 28em;
+  height: auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -3.75em;
 }
 
 
 /*Informações na direita*/
 
 .group-parent {
+  text-align: right;
+  flex: 1;
+  display: flex;
+  align-items: center;
   position: relative;
-  top: -300px;
-  left: 300px;
+  left: 8em;
 }
 
 .group-item {
-  	position: absolute;
+  	position: relative;
   	border-radius: 16px;
   	border: 1px solid rgba(123, 74, 226, 0.5);
   	box-sizing: border-box;
@@ -164,77 +182,54 @@
 }
 
 .vamos-conversar {
-  	position: absolute;
-  	top: 14px;
-  	left: 48px;
+  	position: relative;
+  	top: -1.85em;
+  	left: 3em;
   	font-weight: 600;
   	display: flex;
   	align-items: center;
   	width: 133px;
   	height: 16px;
+    color: #7B4AE280;
 }
 
 .whatsapplogo-icon {
-  	position: absolute;
-  	height: 54%;
-  	width: 12%;
-  	top: 23%;
-  	right: 80%;
+  	position: relative;
+  	height: 1.75em;
+  	width: auto;
+    left: -5em;
+  	top: -3.3em;
   	bottom: 22%;
-  	left: 8%;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
 }
 
-.rectangle-group {
-    top: 0;
-    left: 0;
-  	position: absolute;
-  	top: 29px;
-  	width: 196px;
-  	height: 44px;
+.rectangle-group,
+.cvdownload {
+  margin-top: 20px; /* Adiciona espaço entre os grupos */
+  text-align: center;
 }
 
 .baixar-cv {
-  	position: absolute;
+  	position: relative;
   	font-weight: 600;
   	display: flex;
   	align-items: center;
   	width: 75px;
   	height: 20px;
+    top: -3.25em;
+    left: -7em;
+    color: #7B4AE280;
 }
 
 .arrowlinedown-icon {
-  	position: absolute;
-  	height: 76%;
-  	width: 16.84%;
-  	top: 9.52%;
-  	bottom: 14%;
-  	left: 83%;
+  	position: relative;
+  	height: 1.25em;
+  	width: auto;
+    top: -4.5em;
+    left: -4em;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
-}
-
-.cvdownload {
-  	position: absolute;
-  	left: 86px;
-  	width: 95px;
-  	height: 21px;
-    top: 0;
-    left: 0;
-}
-
-
-/*tela*/
-.topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #090e16;
-  width: 100%;
-  height: 1080px;
-  overflow: hidden;
-  color: rgba(255, 255, 255, 0.5);
 }
