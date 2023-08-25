@@ -287,5 +287,8 @@
     top: -3rem;
     margin: 0 auto;
   }
-
+  
+  .washington-web{
+    display: none
+  }
 }
