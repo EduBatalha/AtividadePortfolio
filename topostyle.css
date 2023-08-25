@@ -1,217 +1,169 @@
-/* Navbar */
-.navbar {
-  top: 1em;
-  width: 95%;
-  max-width: 1080px;
-  height: 3em;
-  background-color: #7B4AE20D;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1.125em;
-  border-radius: 16px;
-  z-index: 1000;
-  margin: 2em auto;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo-icon {
-  height: 90%;
-  max-width: 90%;
-  overflow: hidden;
-  max-height: 100%;
-  margin-right: 10px;
-  padding-left: 2em;
-}
-
-.nav-links {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 2em;
-}
-
-.nav-links b,
-.nav-links div {
-  cursor: pointer;
-  color: #FFFFFF80;
-}
-
-.nav-links b{
-  color: #7B4AE280;
-}
+@media (min-width: 601px) {
+  .topsection {
+    padding: 2em 0; /* Espaçamento superior e inferior */
+    display: flex;
+    flex-direction: row; /* Organiza os itens em linha */
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinha os elementos horizontalmente com espaçamento */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+  }
 
 
 
-.topsection {
-  padding: 2em 0; /* Espaçamento superior e inferior */
-  display: flex;
-  flex-direction: row; /* Organiza os itens em linha */
-  flex-wrap: wrap;
-  justify-content: space-between; /* Alinha os elementos horizontalmente com espaçamento */
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 5em;
-}
+  /*Informações na esquera*/
+  .henrique-sousa{
+    position: relative;
+    color: #fff;
+    font-size: 3.25em;
+    font-family: Raleway;
+  }
 
+  .sousa{
+    position: relative;
+    top: -1em;
+  }
 
+  .saudaes{
+    position: relative;
+    top: -1.8em;
+    left: 0.5em;
+    color: #7B4AE2;
+    font-size: 1.25em
+  }
 
-/*Informações na esquera*/
-.henrique-sousa{
-  position: relative;
-  color: #fff;
-  font-size: 3.25em;
-  font-family: Raleway;
-}
+  .group-child {
+    	position: relative;
+    	border-radius: 16px;
+    	background-color: rgba(123, 74, 226, 0.1);
+    	width: 160px;
+    	height: 45px;
+  }
 
-.sousa{
-  position: relative;
-  top: -1em;
-}
+  .rectangle-parent {
+    	position: relative;
+    	width: 160px;
+    	height: 45px;
+    	text-align: center;
+    	font-size: 1.25;
+    	color: #7b4ae2;
+      top: 35px;
+  }
+  .tophometexts {
+    	position: relative;
+    	width: 400px;
+    	height: 170px;
+      text-align: left;
+      left: 5em;
+      top: 2em;
+  }
 
-.saudaes{
-  position: relative;
-  top: -1.8em;
-  left: 0.5em;
-  color: #7B4AE2;
-  font-size: 1.25em
-}
+  .saudacoes{
+    position: relative;
+    top: 3em;
+  }
 
-.group-child {
-  	position: relative;
-  	border-radius: 16px;
-  	background-color: rgba(123, 74, 226, 0.1);
-  	width: 160px;
-  	height: 45px;
-}
-
-.rectangle-parent {
-  	position: relative;
-  	width: 160px;
-  	height: 45px;
-  	text-align: center;
-  	font-size: 1.25;
-  	color: #7b4ae2;
-    top: 35px;
-}
-.tophometexts {
-  	position: relative;
-  	width: 400px;
-  	height: 170px;
-    text-align: left;
-    left: 5em;
-    top: 2em;
-}
-
-.saudacoes{
-  position: relative;
-  top: 3em;
-}
-
-.front-end-developer {
-  position: relative;
-  color: #FFFFFF80;
-  font-size: 1.125em;
-  width: auto;
-  height: auto;
-  display: inline-flex;
-  top: -4.5em;
-}
-
-.socialmedias-web {
-  	position: relative;
-  	width: 8em;
-  	height: auto;
-    top: -3em;
-}
-
-.socialmedias-icon{
-  display: none
-}
-
-/*Avatar*/
-.avatarandicons {
-  width: 30em;
-  flex: 1;
-  display: flex;
-  position: relative;
-  left: -2em;
-}
-
-
-/*Informações na direita*/
-
-.group-parent {
-  text-align: right;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.group-item {
-  	position: relative;
-  	border-radius: 16px;
-  	border: 1px solid rgba(123, 74, 226, 0.5);
-  	box-sizing: border-box;
-  	width: 196px;
-  	height: 44px;
-}
-
-.vamos-conversar {
-  	position: relative;
-  	top: -1.85em;
-  	left: 3em;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 133px;
-  	height: 16px;
-    color: #7B4AE280;
-}
-
-.whatsapplogo-icon {
-  	position: relative;
-  	height: 1.75em;
-  	width: auto;
-    left: -4.5em;
-  	top: -3.3em;
-  	bottom: 22%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-
-.rectangle-group,
-.cvdownload {
-  margin-top: 20px; /* Adiciona espaço entre os grupos */
-  text-align: center;
-}
-
-.baixar-cv {
-  	position: relative;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 75px;
-  	height: 20px;
-    top: -3.25em;
-    left: -7em;
-    color: #7B4AE280;
-}
-
-.arrowlinedown-icon {
-  	position: relative;
-  	height: 1.25em;
-  	width: auto;
+  .front-end-developer {
+    position: relative;
+    color: #FFFFFF80;
+    font-size: 1.125em;
+    width: auto;
+    height: auto;
+    display: inline-flex;
     top: -4.5em;
-    left: -4em;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
+  }
+
+  .socialmedias-web {
+    	position: relative;
+    	width: 8em;
+    	height: auto;
+      top: -3em;
+  }
+
+  .socialmedias-icon{
+    display: none
+  }
+
+  /*Avatar*/
+  .avatarandicons {
+    width: 30em;
+    flex: 1;
+    display: flex;
+    position: relative;
+    left: -2em;
+  }
+
+
+  /*Informações na direita*/
+
+  .group-parent {
+    text-align: right;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .group-item {
+    	position: relative;
+    	border-radius: 16px;
+    	border: 1px solid rgba(123, 74, 226, 0.5);
+    	box-sizing: border-box;
+    	width: 196px;
+    	height: 44px;
+  }
+
+  .vamos-conversar {
+    	position: relative;
+    	top: -1.85em;
+    	left: 3em;
+    	font-weight: 600;
+    	display: flex;
+    	align-items: center;
+    	width: 133px;
+    	height: 16px;
+      color: #7B4AE280;
+  }
+
+  .whatsapplogo-icon {
+    	position: relative;
+    	height: 1.75em;
+    	width: auto;
+      left: -4.5em;
+    	top: -3.3em;
+    	bottom: 22%;
+    	max-width: 100%;
+    	overflow: hidden;
+    	max-height: 100%;
+  }
+
+  .rectangle-group,
+  .cvdownload {
+    margin-top: 20px; /* Adiciona espaço entre os grupos */
+    text-align: center;
+  }
+
+  .baixar-cv {
+    	position: relative;
+    	font-weight: 600;
+    	display: flex;
+    	align-items: center;
+    	width: 75px;
+    	height: 20px;
+      top: -3.25em;
+      left: -7em;
+      color: #7B4AE280;
+  }
+
+  .arrowlinedown-icon {
+    	position: relative;
+    	height: 1.25em;
+    	width: auto;
+      top: -4.5em;
+      left: -4em;
+    	max-width: 100%;
+    	overflow: hidden;
+    	max-height: 100%;
+  }
 }
