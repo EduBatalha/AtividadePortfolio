@@ -1,0 +1,144 @@
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  /* Estilos para .topsection */
+  .primeira-tela {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.25em;
+    margin: 0 auto;
+  }
+
+  .topsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    place-content: center; /* Centraliza vertical e horizontalmente */
+    text-align: center;
+    margin: 2em auto; /* Espaçamento externo */
+    padding: 2em; /* Espaçamento interno */
+    max-height: 700px
+  }
+
+
+/*icones redes sociais*/
+  .socialmedias-icon {
+    position: relative;
+    width: auto;
+    height: auto;
+    min-width: 50%;
+    display: flex;
+    top: -13rem;
+    left: 52%;
+    transform: translateX(-50%)
+  }
+
+
+  /* Estilos para avatar */
+  .avatarandicons {
+    position: relative;
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+    top: -14rem;
+    left: 56%;
+    transform: translateX(-50%)
+  }
+
+  .tophometexts {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 1em; /* Espaçamento entre os itens */
+    top: 45rem;
+    left: 4rem;
+    width: auto;
+    height: auto;
+  }
+
+  .saudacoes {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: 5em;
+  }
+
+  .saudaes {
+    position: relative;
+  }
+
+  .henrique-sousa {
+    position: relative;
+    font-weight: 800;
+    color: #fff;
+    font-size: 3em;
+    height: auto;
+    width: auto;
+  }
+
+  .front-end-developer {
+    position: relative;
+    font-size: 1.125em;
+    color: #FFFFFF80;
+    height: auto;
+    width: auto;
+    top: -5.2em;
+  }
+
+  /* Estilos para group-parent */
+  .group-parent {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: -4em;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -1rem;
+  left: -8.2rem;
+}
+
+.cvdownload {
+    position: relative;
+    top: 2.6em;
+    left: -1.2em;
+  }
+
+.rectangle-group {
+    position: relative;
+    left: 11em;
+  }
+
+  .socialmedias-web{
+    display: none;
+  }
+
+  .experiencesection {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Apresentar os cards em coluna */
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    font-family: Raleway;
+    margin: 0 auto;
+    top: 8rem;
+  }
+
+
+  .devcard,
+  .projectscard,
+  .designcard {
+    margin: 2em 0 ; /* Espaçamento entre os cards */
+  }
+
+  .experiencedescription{
+    display:none;
+  }
+}

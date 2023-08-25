@@ -47,41 +47,23 @@
 }
 
 
-/* Estilos para a seção topo */
-.topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #090e16;
-  width: 100%;
-  padding: 2em 0; /* Espaçamento superior e inferior */
-  color: rgba(255, 255, 255, 0.5);
-}
 
-/* Contêiner para agrupar os elementos */
-.primeira-tela {
+.topsection {
+  padding: 2em 0; /* Espaçamento superior e inferior */
   display: flex;
+  flex-direction: row; /* Organiza os itens em linha */
   flex-wrap: wrap;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between; /* Alinha os elementos horizontalmente com espaçamento */
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 20px; /* Espaçamento superior */
+  margin-bottom: 5em;
 }
+
 
 
 /*Informações na esquera*/
-.henrique-sousa,
-.saudacoes
-.saudaes {
-  flex: 1;
-  text-align: left;
-}
-
 .henrique-sousa{
   position: relative;
-  top: -1em;
   color: #fff;
   font-size: 3.25em;
   font-family: Raleway;
@@ -121,44 +103,44 @@
   	position: relative;
   	width: 400px;
   	height: 170px;
+    text-align: left;
+    left: 5em;
+    top: 2em;
 }
 
-.topsection {
-  position:relative;
-  text-align: left;
-  flex: 1;
-  left: -2em;
-  top: -3em;
+.saudacoes{
+  position: relative;
+  top: 3em;
 }
 
 .front-end-developer {
   position: relative;
   color: #FFFFFF80;
-  top: 2em;
   font-size: 1.125em;
   width: auto;
   height: auto;
   display: inline-flex;
+  top: -4.5em;
 }
 
-.socialmedias-icon {
+.socialmedias-web {
   	position: relative;
-  	top: 3em;
-  	width: 130px;
-  	height: 34px;
+  	width: 8em;
+  	height: auto;
+    top: -3em;
 }
 
+.socialmedias-icon{
+  display: none
+}
 
 /*Avatar*/
 .avatarandicons {
-  width: 28em;
-  height: auto;
+  width: 30em;
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
-  left: -3.75em;
+  left: -2em;
 }
 
 
@@ -170,7 +152,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  left: 8em;
 }
 
 .group-item {
@@ -198,7 +179,7 @@
   	position: relative;
   	height: 1.75em;
   	width: auto;
-    left: -5em;
+    left: -4.5em;
   	top: -3.3em;
   	bottom: 22%;
   	max-width: 100%;
