@@ -1,0 +1,294 @@
+@media (max-width: 600px) {
+
+  /* Estilos para .topsection */
+  .topsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    place-content: center; /* Centraliza vertical e horizontalmente */
+    text-align: center;
+    margin: 2em auto; /* Espaçamento externo */
+    padding: 2em; /* Espaçamento interno */
+    max-height: 700px
+  }
+
+
+/*icones redes sociais*/
+  .socialmedias-icon {
+    position: relative;
+    width: auto;
+    height: auto;
+    min-width: 50%;
+    display: flex;
+    top: -13em;
+    left: 22vw;
+  }
+
+
+  /* Estilos para avatar */
+  .avatarandicons {
+    position: relative;
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    top: -13em;
+    left: 10vw;
+  }
+
+  .tophometexts {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 1em; /* Espaçamento entre os itens */
+    top: 125vw;
+    left: 11vw;
+    margin: 2em auto;
+  }
+
+  .saudacoes {
+    position: relative;
+    height: auto;
+    width: auto;
+    left: -8em;
+  }
+
+  .saudaes{
+    position: relative;
+    top: -1.9em;
+    left: -5.8em;
+    color: #7B4AE2;
+    font-size: 0.875em;
+  }
+
+  .group-child {
+    	position: relative;
+    	border-radius: 16px;
+    	background-color: rgba(123, 74, 226, 0.1);
+    	width: 7.625em;
+    	height: 2em;
+  }
+
+  .henrique-sousa {
+    position: relative;
+    font-weight: 800;
+    color: #ffff;
+    font-size: 3em;
+    height: auto;
+    width: auto;
+    top: -1.5em;
+    left: -26.1vw;
+  }
+
+  .sousa {
+    position: relative;
+    top: -1em;
+    left: -0.75em;
+  }
+
+  .front-end-developer {
+    position: relative;
+    font-size: 1.125em;
+    color: #FFFFFF80;
+    height: auto;
+    width: auto;
+    top: -10em;
+    left: -6.8em;
+  }
+
+  .group-parent {
+    text-align: right;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -1em;
+  }
+
+  .group-item {
+    	position: relative;
+    	border-radius: 16px;
+    	border: 1px solid rgba(123, 74, 226, 0.5);
+    	box-sizing: border-box;
+    	width: 196px;
+    	height: 44px;
+  }
+
+  .vamos-conversar {
+    	position: relative;
+    	top: -1.85em;
+    	left: 3em;
+    	font-weight: 600;
+    	display: flex;
+    	align-items: center;
+    	width: 133px;
+    	height: 16px;
+      color: #7B4AE280;
+  }
+
+  .whatsapplogo-icon {
+    	position: relative;
+    	height: 1.75em;
+    	width: auto;
+      left: -4.5em;
+    	top: -3.3em;
+    	bottom: 22%;
+    	max-width: 100%;
+    	max-height: 100%;
+  }
+
+  .rectangle-group{
+    position: relative;
+    left: 12em;
+    text-align: center;
+  }
+
+
+  .cvdownload {
+    position: relative;
+    text-align: center;
+    top: 2.5em;
+  }
+
+  .baixar-cv {
+    	position: relative;
+    	font-weight: 600;
+    	display: flex;
+    	align-items: center;
+    	width: 75px;
+    	height: 20px;
+      top: -3.25em;
+      left: -7em;
+      color: #7B4AE280;
+  }
+
+  .arrowlinedown-icon {
+    	position: relative;
+    	height: 1.25em;
+    	width: auto;
+      top: -4.5em;
+      left: -4em;
+    	max-width: 100%;
+    	overflow: hidden;
+    	max-height: 100%;
+  }
+
+  .socialmedias-web{
+    display: none;
+  }
+
+  .experiencesection {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Apresentar os cards em coluna */
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    font-family: Raleway;
+    margin: 0 auto;
+    top: 8rem;
+    max-width: 600px;
+  }
+
+
+  .devcard,
+  .projectscard,
+  .designcard {
+    margin: 2em 0 ; /* Espaçamento entre os cards */
+  }
+
+  .experiencedescription{
+    display:none;
+  }
+
+  .tela3 {
+    position: relative;
+    padding: 2em; /* Espaçamento interno */
+    top: 10rem;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    place-content: center; /* Centraliza vertical e horizontalmente */
+    text-align: center;
+    margin: 0 auto; /* Centraliza na horizontal */
+  }
+
+  .washington {
+    display: relative;
+    width: 15.5em;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-block {
+    	position: relative;
+    	border-radius: 8px;
+    	background-color: rgba(123, 74, 226, 0.1);
+    	width: 7em;
+    	height: 2em;
+      align-items: center;
+  }
+
+  .sobre-mim {
+    	position: relative;
+      font-size: 0.875em;
+    	display: inline;
+    	align-items: center;
+    	justify-content: center;
+      width: auto;
+    	height: auto;
+      left: -7.5em;
+  }
+
+  .square {
+      display: flex;
+    	position: relative;
+      justify-content: center;
+      align-items: center;
+    	width: 100%;
+    	height: auto;
+    	color: #7b4ae2;
+    	font-family: Raleway;
+      top: 3em;
+      left: -11vw;
+  }
+
+
+  .nome-washington {
+    position: relative;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    left: -13vw;
+
+  }
+
+  .nome-henrique{
+    position: relative;
+    left: -0.7em;
+  }
+
+  .texto-sobre {
+    position: relative;
+    font-size: 1em;
+    color: #FFFFFF80;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    max-width: 64%;
+    top: -3rem;
+    margin: 0 auto;
+  }
+  
+  .washington-web{
+    display: none
+  }
+}

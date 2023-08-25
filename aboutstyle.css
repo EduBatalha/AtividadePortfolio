@@ -1,0 +1,87 @@
+@media (min-width: 601px) {
+
+  .tela3 {
+    position: relative;
+    padding: 2em; /* Espaçamento interno */
+    top: 10rem;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .washington {
+    display: relative;
+    position: relative;
+    width: 22em;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-block {
+    	position: relative;
+    	border-radius: 16px;
+    	background-color: rgba(123, 74, 226, 0.1);
+    	width: 10em;
+    	height: 3em;
+  }
+
+  .sobre-mim {
+    	position: relative;
+      font-size: 1.25em;
+    	display: inline;
+    	align-items: center;
+      width: auto;
+    	height: auto;
+      left: -7.5em;
+      white-space: nowrap;
+  }
+
+  .square {
+      display: flex;
+    	position: relative;
+      justify-content: center;
+      align-items: center;
+    	width: 100%;
+    	height: auto;
+    	color: #7b4ae2;
+    	font-family: Raleway;
+      left: -12em;
+      top: -8em;
+  }
+
+  .washington-web {
+    position: relative;
+    margin-top: 2em; /* Adiciona espaço entre os itens */
+    color: #ffff;
+    text-align: left;
+    font-size: 1.5em;
+    display: inline;
+    white-space: nowrap;
+    left: 25em;
+    top: -16em;
+  }
+
+  .texto-sobre-web{
+    font-size: 0.5em;
+    color: #FFFFFF80;
+    white-space: nowrap;
+  }
+
+  .nome-washington {
+    display: none;
+  }
+
+  .texto-sobre {
+    display: none;
+  }
+
+}
