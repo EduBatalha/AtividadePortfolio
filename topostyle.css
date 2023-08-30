@@ -1,168 +1,155 @@
 @media (min-width: 601px) {
+
   .topsection {
-    padding: 2em 0; /* Espaçamento superior e inferior */
+    padding: 3em 0; /* Espaçamento superior e inferior */
     display: flex;
-    flex-direction: row; /* Organiza os itens em linha */
-    flex-wrap: wrap;
-    justify-content: space-between; /* Alinha os elementos horizontalmente com espaçamento */
-    max-width: 1200px;
+    flex-direction: row;
+    max-width: 1920px;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 5em;
-  }
-
+    align-items: center;
+    justify-content: space-between;
+  } 
 
 
   /*Informações na esquera*/
-  .henrique-sousa{
+  .tophometexts {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    color: #fff;
-    font-size: 3.25em;
-    font-family: Raleway;
-  }
-
-  .sousa{
-    position: relative;
-    top: -1em;
-  }
-
-  .saudaes{
-    position: relative;
-    top: -1.8em;
-    left: 0.5em;
-    color: #7B4AE2;
-    font-size: 1.25em
+    text-align: left;
+    justify-content: flex-start;
+    padding: 4% 0;
   }
 
   .group-child {
-    	position: relative;
-    	border-radius: 16px;
-    	background-color: rgba(123, 74, 226, 0.1);
-    	width: 160px;
-    	height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgba(123, 74, 226, 0.1);
+    width: 50%;
+    max-width: 160px;
+    min-width: 100px;
+    height: 45px;
+    margin-bottom: 1em; /* Espaçamento inferior */
   }
 
-  .rectangle-parent {
-    	position: relative;
-    	width: 160px;
-    	height: 45px;
-    	text-align: center;
-    	font-size: 1.25;
-    	color: #7b4ae2;
-      top: 35px;
-  }
-  .tophometexts {
-    	position: relative;
-    	width: 400px;
-    	height: 170px;
-      text-align: left;
-      left: 5em;
-      top: 2em;
+  .saudacoes {
+    color: #7B4AE2;
+    font-size: min(2vw, 20px); /* Tamanho de fonte responsivo */
+    text-align: center;
+    white-space: nowrap;
   }
 
-  .saudacoes{
-    position: relative;
-    top: 3em;
+  .henrique-sousa {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Centralizar verticalmente */
+    text-align: start;
+    color: #fff;
+    font-size: min(6vw, 52px);
+    font-family: Raleway;
+    max-height: 120px;
   }
 
   .front-end-developer {
     position: relative;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
     color: #FFFFFF80;
-    font-size: 1.125em;
-    width: auto;
-    height: auto;
-    display: inline-flex;
-    top: -4.5em;
+    font-size: min(2vw, 20px);;
+    max-width: 90%; /* Largura máxima */
+    white-space: nowrap;
   }
 
   .socialmedias-web {
-    	position: relative;
-    	width: 8em;
-    	height: auto;
-      top: -3em;
+    position: relative;
+    width: 9.375vw;
+    max-width: 130px;
+    min-width: 100px;
+    height: 2em;
+    margin-top: 1%; /* Espaçamento superior */
   }
-
-  .socialmedias-icon{
+      .socialmedias-icon{
     display: none
   }
 
+
   /*Avatar*/
   .avatarandicons {
-    width: 30em;
-    flex: 1;
-    display: flex;
-    position: relative;
-    left: -2em;
-  }
+      width: 555px;
+      max-width: 555px;
+      min-width: 300px;
+      height: auto;
+    }
 
 
   /*Informações na direita*/
   .group-parent {
-    text-align: right;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
+      display: flex;
+      align-items: center;
 
-  .group-item {
-    	position: relative;
-    	border-radius: 16px;
-    	border: 1px solid rgba(123, 74, 226, 0.5);
-    	box-sizing: border-box;
-    	width: 196px;
-    	height: 44px;
-  }
+      position: relative;
+      flex-direction: column;
+      max-width: 100%
+    }
 
-  .vamos-conversar {
-    	position: relative;
-    	top: -1.85em;
-    	left: 3em;
-    	font-weight: 600;
-    	display: flex;
-    	align-items: center;
-    	width: 133px;
-    	height: 16px;
-      color: #7B4AE280;
-  }
+    .group-item {
+      	border-radius: 16px;
+      	border: 1px solid rgba(123, 74, 226, 0.5);
+      	box-sizing: border-box;
+        width: auto;
+        max-width: 196px;
+      	min-width: 100px;
+        height: 44px;
+      	max-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
 
-  .whatsapplogo-icon {
-    	position: relative;
-    	height: 1.75em;
-    	width: auto;
-      left: -4.5em;
-    	top: -3.3em;
-    	bottom: 22%;
-    	max-width: 100%;
-    	overflow: hidden;
-    	max-height: 100%;
-  }
+      .vamos-conversar {
+        	position: relative;
+        	font-weight: 600;
+          font-size: min(2vw, 16px);
+        	height: auto;
+          color: #7B4AE280;
+          white-space: nowrap;
+          margin-right: 1em;
+      }
 
-  .rectangle-group,
-  .cvdownload {
-    margin-top: 20px; /* Adiciona espaço entre os grupos */
-    text-align: center;
-  }
+      .whatsapplogo-icon {
+          position: relative;
+        	height: auto;
+        	width: 1.5em;
+        	max-width: 1.5em;
+        	overflow: hidden;
+          margin-left: 1em;
+      }
 
-  .baixar-cv {
-    	position: relative;
-    	font-weight: 600;
-    	display: flex;
-    	align-items: center;
-    	width: 75px;
-    	height: 20px;
-      top: -3.25em;
-      left: -7em;
-      color: #7B4AE280;
-  }
 
-  .arrowlinedown-icon {
-    	position: relative;
-    	height: 1.25em;
-    	width: auto;
-      top: -4.5em;
-      left: -4em;
-    	max-width: 100%;
-    	overflow: hidden;
-    	max-height: 100%;
-  }
+    .baixar-cv {
+      	position: relative;
+      	font-weight: 600;
+        font-size: 1em;
+        display: flex;
+      	width: 75px;
+      	height: 20px;
+        color: #7B4AE280;
+        gap: 0.25em;
+        padding-bottom: 8px;
+        padding-left: 60px;
+        white-space: nowrap;
+        align-items: center;
+    }
+
+      .arrowlinedown-icon {
+      	height: 1em;
+        width: 1em;
+        max-width: 100%;
+        max-height: 100%;
+      }
 }

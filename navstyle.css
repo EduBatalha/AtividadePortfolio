@@ -2,8 +2,8 @@
 .navbar {
   top: 1em;
   width: 95%;
-  max-width: 1080px;
-  height: 3em;
+  max-width: 1920px;
+  height: 64px;
   background-color: #7B4AE20D;
   display: flex;
   align-items: center;
@@ -14,18 +14,15 @@
   margin: 2em auto;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
 
 .logo-icon {
-  height: 90%;
+  height: 40px;
+  width: 36px;
   max-width: 90%;
   overflow: hidden;
   max-height: 100%;
   margin-right: 10px;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 
 .nav-links {
