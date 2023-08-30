@@ -1,9 +1,14 @@
-/*tela*/
+@media (min-width: 601px){/*tela*/
+.tela2{
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
 .experiencesection {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 100%;
   padding: 1em 0;
   text-align: center;
@@ -11,7 +16,8 @@
   color: #fff;
   font-family: Raleway;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 46.771vw;
+  gap: 10%;
 }
 
 
@@ -22,193 +28,175 @@
     justify-content: space-around;
     border-radius: 16px;
     background-color: #7B4AE21A;
-    width: 100%; /* Usando largura de 100% para que o elemento se ajuste ao contêiner */
-    max-width: 1080px;
-    height: 6.8em;
+    width: 46.771vw;
+    height: 5.729vw;
     margin: 0 auto; /* Centralizar horizontalmente */
 }
 
 
 /*devfront*/
-.desenvolvedor {
-  	position: relative;
-  	display: flex;
-    left: 1.2em;
-}
-
-.front-end {
-    margin: 0;
-  	position: relative;
-  	font-size: 32px;
-  	font-family: inherit;
-  	display: flex;
-}
-
 .dev-front {
-  	position: relative;
+    position: relative;
     color: #7B4AE2;
+    text-align: center;
 }
+
+    .desenvolvedor {
+          position: relative;
+        font-size: 0.833vw;
+    }
+
+    .front-end {
+        margin: 0;
+          position: relative;
+          font-size: 1.667vw;
+          font-family: inherit;
+    }
 
 
 /*projetos e experiencia*/
-.dezenas-de-projetos {
-  	position: relative;
-  	display: flex;
-    left: 1em;
-}
-
-.experiencias {
-    margin: 0;
-  	position: relative;
-  	font-size: 32px;
-  	display: flex;
-}
-
 .dezenas-de-projetos-e-xp {
-  	position: relative;
+    position: relative;
     color: #7B4AE2;
+    text-align: center;
 }
+
+    .dezenas-de-projetos {
+          position: relative;
+        font-size: 0.833vw;
+    }
+
+    .experiencias {
+        margin: 0;
+          position: relative;
+          font-size: 1.667vw;
+    }
 
 
 /*designer freelancer*/
 .designer-freelancer {
-  	position: relative;
+      position: relative;
     color: #7B4AE2;
+    text-align: center;
 }
 
-.freelancer{
-  position:relative;
-  display:flex;
-}
+    .freelancer{
+      position:relative;
+      font-size: 0.833vw;
+    }
 
-.ui{
-  margin: 0;
-  position: relative;
-  font-size: 32px;
-  display: flex;
-}
+    .ui{
+      margin: 0;
+      position: relative;
+      font-size: 1.667vw;
+    }
+
 
 /*cards*/
 
 
 /*card dev*/
-.devcar-child {
-  	position: relative;
-  	border-radius: 16px;
-  	border: 1px solid rgba(123, 74, 226, 0.5);
-  	box-sizing: border-box;
-  	width: 246px;
-  	height: 200px;
-}
-
-.devcar {
-  	position: relative;
-  	width: 246px;
-  	height: 200px;
-}
-
-
-.codeicon {
-  position: relative;
-  height: 32%;
-  width: auto;
-  top: 2em;
-  left: -9.8em;
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .devcard {
-  	position: relative;
-  	width: 246px;
-  	height: 200px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.5);
+    width: 12.813vw;
+    height: 10.417vw;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
+    
+    .codeicon {
+        height: auto;
+        width: 30%;
+        margin-top: 14%;
+    }
 
-.programador{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  top: -3.5em;
-  font-size: 2em;
-}
+    .devcard-texto {
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-bottom: 32px;
+        font-size: 0.833vw;
+    }
+
+    .programador{ 
+        font-weight: bold;
+        font-size: 1.667vw;
+    }
 
 
 /*card meio*/
-.card-meio {
-  	position: relative;
-  	border-radius: 16px;
-  	background-color: rgba(123, 74, 226, 0.1);
-  	width: 246px;
-  	height: 200px;
-}
-.projectsicon {
-    position: relative;
-    height: 32%;
-    width: auto;
-    top: -17em;
-    max-width: 100%;
-    max-height: 100%;
-}
 .projectscard {
-  	position: relative;
-
-  	width: 246px;
-  	height: 200px;
+    position: relative;
+    border-radius: 16px;
+    background-color: rgba(123, 74, 226, 0.1);
+    width: 12.813vw;
+    height: 10.417vw;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.trabalhos{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  top: -3.5em;
-  font-size: 2em;
-}
+    .projectsicon {
+        height: auto;
+        width: 30%;
+        margin-top: 14%;
+    }
+
+    .projeto-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-bottom: 32px;
+        font-size: 0.833vw;
+    }
+    
+
+    .trabalhos{
+        font-weight: bold;
+        font-size: 1.667vw;
+    }
 
 
 /*card designer*/
-.designicon {
-  	position: relative;
-  	height: 32%;
-  	width: auto;
-    top: -10em;
-  	max-width: 100%;
-  	max-height: 100%;
-}
-
 .designcard {
-  	position: relative;
-  	width: 246px;
-  	height: 200px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.5);
+    width: 12.813vw;
+    height: 10.417vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.des-car {
-  	position: relative;
-  	width: 246px;
-  	height: 200px;
-}
+    .designicon {
+          height: auto;
+        width: 30%;
+        margin-top: 14%;
+    }
 
-.designcard-child {
-  	position: relative;
-  	border-radius: 16px;
-  	border: 1px solid rgba(123, 74, 226, 0.5);
-  	box-sizing: border-box;
-  	width: 246px;
-  	height: 200px;
-}
+    .design-texto {
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-bottom: 32px;
+        font-size: 0.833vw;
+    }
 
-.anos-como {
-  	position: relative;
-  	align-items: center;
-  	justify-content: center;
-    top: -5em;
-}
-
-.designer {
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  top: -3.5em;
-  font-size: 2em;
+    .designer {
+        font-weight: bold;
+        font-size: 1.667vw;
+    }
 }

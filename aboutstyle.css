@@ -3,77 +3,61 @@
   .tela3 {
     position: relative;
     padding: 2em; /* Espaçamento interno */
-    top: 10rem;
-    margin: 0 auto;
+    margin: 0 0;
     justify-content: center;
-    max-width: 100%
   }
 
   .about-me {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1em;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    gap: 15%;
   }
 
   .washington {
     display: relative;
     position: relative;
-    width: 22em;
-    height: auto;
-    margin: 0 auto;
+    width: 23.958vw;
+    height: 25.938vw;
+  }
+
+  .direita-web{
+    display: flex;
+    flex-direction: column;
   }
 
   .about-block {
-    	position: relative;
+      display: flex;
     	border-radius: 16px;
-    	background-color: rgba(123, 74, 226, 0.1);
-    	width: 10em;
-    	height: 3em;
+    	background-color: #7B4AE21A;
+    	width: 8.333vw;
+    	height: 2.344vw;
+      align-items: center;
+      justify-content: center;
   }
 
   .sobre-mim {
-    	position: relative;
-      font-size: 1.25em;
-    	display: inline;
-    	align-items: center;
-      width: auto;
-    	height: auto;
-      left: -7.5em;
-      white-space: nowrap;
-  }
-
-  .square {
-      display: flex;
-    	position: relative;
-      justify-content: center;
-      align-items: center;
-    	width: 100%;
-    	height: auto;
-    	color: #7b4ae2;
-    	font-family: Raleway;
-      left: -12em;
-      top: -8em;
+      font-size: 1.042vw;
+      color: #7B4AE2;
+      text-align: center;
   }
 
   .washington-web {
     position: relative;
-    margin-top: 2em; /* Adiciona espaço entre os itens */
     color: #ffff;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 2.500vw;
     display: inline;
     white-space: nowrap;
-    left: 25em;
-    top: -16em;
+    margin-left: 0;
   }
 
   .texto-sobre-web{
-    font-size: 0.5em;
+    font-size: 0.938vw;
     color: #FFFFFF80;
     white-space: nowrap;
+    margin-left: 0;
   }
 
   .nome-washington {
