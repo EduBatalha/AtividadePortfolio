@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   
-  /* Estilos para .topsection */
+/* Estilos para tela 1 */
   .topsection {
     display: flex;
     flex-direction: column;
@@ -8,10 +8,11 @@
     align-items: center;
     margin: 2em 2em; /* Espaçamento externo */
     overflow-x: hidden;
+    margin-bottom: 20%;
   }
 
 
-/*icones redes sociais*/
+  /*icones redes sociais*/
   .socialmedias-icon {
     order: 1;
     width: 34.667vw;
@@ -133,32 +134,137 @@
     }
 
   
-  /*Tela 2*/
+/*Estilos para tela 2*/
   .experiencesection {
-    position: relative;
     display: flex;
-    flex-direction: column; /* Apresentar os cards em coluna */
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
+    padding: 1em 0;
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
     color: #fff;
     font-family: Raleway;
     margin: 0 auto;
-    top: 8rem;
-    max-width: 600px;
+    max-width: 46.771vw;
+ }
+
+  /*cards*/
+
+  /*card dev*/
+  .devcard {
+      position: relative;
+      border-radius: 16px;
+      border: 1px solid rgba(123, 74, 226, 0.5);
+      width: 51.789vw;
+      height: 42.105vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+      
+      .codeicon {
+          height: auto;
+          width: 30%;
+          margin-top: 14%;
+      }
+
+      .devcard-texto {
+            display: flex;
+          flex-direction: column;
+          align-items: center;
+          align-content: center;
+          justify-items: center;
+          margin-bottom: 32px;
+          font-size: 3.368vw;
+      }
+
+      .programador{ 
+          font-weight: bold;
+          font-size: 5.053vw;
+      }
+
+
+  /*card meio*/
+  .projectscard {
+      position: relative;
+      border-radius: 16px;
+      background-color: rgba(123, 74, 226, 0.1);
+      width: 51.789vw;
+      height: 42.105vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 15%;
+      margin-bottom: 15%;
   }
 
+      .projectsicon {
+          height: auto;
+          width: 30%;
+          margin-top: 14%;
+      }
 
-  .devcard,
-  .projectscard,
+      .projeto-texto {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          align-content: center;
+          justify-items: center;
+          margin-bottom: 32px;
+          font-size: 3.368vw;
+      }
+      
+
+      .trabalhos{
+          font-weight: bold;
+          font-size: 5.053vw;
+      }
+
+
+  /*card designer*/
   .designcard {
-    margin: 2em 0 ; /* Espaçamento entre os cards */
+      position: relative;
+      border-radius: 16px;
+      border: 1px solid rgba(123, 74, 226, 0.5);
+      width: 51.789vw;
+      height: 42.105vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
   }
 
-  .experiencedescription{
-    display:none;
-  }
+      .designicon {
+            height: auto;
+          width: 30%;
+          margin-top: 14%;
+      }
 
+      .design-texto {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          align-content: center;
+          justify-items: center;
+          margin-bottom: 32px;
+          font-size: 3.368vw;
+      }
+
+      .designer {
+          font-weight: bold;
+          font-size: 5.053vw;
+      }
+
+    .experiencedescription{
+      display:none;
+    }
+ 
+
+/*Estilos para tela 3*/
   .tela3 {
     position: relative;
     padding: 2em; /* Espaçamento interno */
