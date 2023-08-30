@@ -7,3 +7,15 @@ body {
   font-family: Raleway;
   overflow-x: hidden;
 }
+
+@media (min-width: 601px) {
+  .line-div {
+  position: relative;
+  border-top: 1px;
+  background-color: #7B4AE233;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 5%;
+  }
+}

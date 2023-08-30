@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  
+
 /* Estilos para tela 1 */
   .topsection {
     display: flex;
@@ -267,95 +267,74 @@
 /*Estilos para tela 3*/
   .tela3 {
     position: relative;
-    padding: 2em; /* Espaçamento interno */
-    top: 10rem;
-    margin: 0 auto;
+    align-items: center;
     justify-content: center;
-    max-width: 600px;
+    overflow-x: hidden;
   }
 
   .about-me {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2em;
-    place-content: center; /* Centraliza vertical e horizontalmente */
-    text-align: center;
-    margin: 0 auto; /* Centraliza na horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .washington {
     display: relative;
-    width: 15.5em;
+    width: 49.264vw;
     height: auto;
     margin: 0 auto;
   }
 
   .about-block {
-    	position: relative;
+    	display: flex;
     	border-radius: 8px;
     	background-color: rgba(123, 74, 226, 0.1);
-    	width: 7em;
-    	height: 2em;
+    	width: 30.133vw;
+    	height: 8.533vw;
       align-items: center;
+      justify-content: center;
+      margin-left: 13%;
+      margin-top: 8%;
   }
 
   .sobre-mim {
     	position: relative;
-      font-size: 0.875em;
-    	display: inline;
-    	align-items: center;
-    	justify-content: center;
-      width: auto;
-    	height: auto;
-      left: -7.5em;
-  }
-
-  .square {
-      display: flex;
-    	position: relative;
-      justify-content: center;
-      align-items: center;
-    	width: 100%;
-    	height: auto;
-    	color: #7b4ae2;
-    	font-family: Raleway;
-      top: 3em;
-      left: -11vw;
+      font-size: 3.733vw;
+    	text-align: center;
+      color: #7b4ae2;
   }
 
 
   .nome-washington {
     position: relative;
-    font-size: 2em;
+    font-size: 6.400vw;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     display: block;
-    left: -13vw;
-
+    margin-left: 13%;
   }
 
   .nome-henrique{
     position: relative;
-    left: -0.7em;
   }
 
   .texto-sobre {
     position: relative;
-    font-size: 1em;
+    font-size: 3.733vw;
     color: #FFFFFF80;
     text-align: justify;
+
     width: auto;
     height: auto;
-    max-width: 64%;
-    top: -3rem;
-    margin: 0 auto;
+    margin-left: 13%;
+    margin-right: 13%; 
   }
 
   .washington-web{
     display: none
   }
 
-  /*Estilo footer*/
+/*Estilo footer*/
   .footer{
     position: relative;
     display: flex;
@@ -365,10 +344,9 @@
     margin-top: 5em;
     padding-bottom: 0;
     background-color: #7B4AE21A;
-    width: 100%;
+    width: 100vw;
     height: 88px;
     gap: 0.785625em;
-    overflow-x: hidden;
   }
 
   .icons-footer{

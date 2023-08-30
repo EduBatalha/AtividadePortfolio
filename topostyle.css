@@ -4,8 +4,7 @@
     padding: 3em 0; /* Espaçamento superior e inferior */
     display: flex;
     flex-direction: row;
-    max-width: 1920px;
-    width: 95%;
+    width: 85.417vw;
     margin: 0 auto;
     margin-bottom: 5em;
     align-items: center;

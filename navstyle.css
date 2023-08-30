@@ -1,8 +1,7 @@
 /* Navbar */
 .navbar {
   top: 1em;
-  width: 95%;
-  max-width: 1920px;
+  width: 85.417vw;
   height: 64px;
   background-color: #7B4AE20D;
   display: flex;
