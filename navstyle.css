@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.125em;
+  font-size: clamp(13px, 0.938vw, 18px);
   border-radius: 16px;
   z-index: 1000;
   margin: 2em auto;
@@ -26,7 +26,7 @@
 
 .nav-links {
   display: flex;
-  gap: 10px;
+  gap: 0.521vw;
   align-items: center;
   justify-content: flex-end;
   padding-right: 2em;
