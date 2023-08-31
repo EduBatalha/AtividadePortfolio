@@ -12,7 +12,7 @@
   } 
 
 
-  /*Informações na esquera*/
+/*Informações na esquera*/
   .tophometexts {
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
   }
 
 
-  /*Avatar*/
+/*Avatar*/
   .avatarandicons {
       width: 555px;
       max-width: 555px;
@@ -86,7 +86,7 @@
     }
 
 
-  /*Informações na direita*/
+/*Informações na direita*/
   .group-parent {
       display: flex;
       align-items: center;
@@ -134,14 +134,14 @@
     .baixar-cv {
       	position: relative;
       	font-weight: 600;
-        font-size: 1em;
+        font-size: 16px;
         display: flex;
       	width: 75px;
       	height: 20px;
         color: #7B4AE280;
         gap: 0.25em;
         padding-bottom: 8px;
-        padding-left: 60px;
+        padding-left: 3.125vw;
         white-space: nowrap;
         align-items: center;
     }
