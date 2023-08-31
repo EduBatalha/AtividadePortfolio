@@ -21,182 +21,182 @@
 }
 
 
-/*Experiencias*/
-.fundo-experiencia {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 16px;
-    background-color: #7B4AE21A;
-    width: 46.771vw;
-    height: 5.729vw;
-    margin: 0 auto; /* Centralizar horizontalmente */
-}
-
-
-/*devfront*/
-.dev-front {
-    position: relative;
-    color: #7B4AE2;
-    text-align: center;
-}
-
-    .desenvolvedor {
-          position: relative;
-        font-size: 0.833vw;
-    }
-
-    .front-end {
-        margin: 0;
-          position: relative;
-          font-size: 1.667vw;
-          font-family: inherit;
-    }
-
-
-/*projetos e experiencia*/
-.dezenas-de-projetos-e-xp {
-    position: relative;
-    color: #7B4AE2;
-    text-align: center;
-}
-
-    .dezenas-de-projetos {
-          position: relative;
-        font-size: 0.833vw;
-    }
-
-    .experiencias {
-        margin: 0;
-          position: relative;
-          font-size: 1.667vw;
-    }
-
-
-/*designer freelancer*/
-.designer-freelancer {
-      position: relative;
-    color: #7B4AE2;
-    text-align: center;
-}
-
-    .freelancer{
-      position:relative;
-      font-size: 0.833vw;
-    }
-
-    .ui{
-      margin: 0;
-      position: relative;
-      font-size: 1.667vw;
-    }
-
-
 /*cards*/
 
 
-/*card dev*/
-.devcard {
-    position: relative;
-    border-radius: 16px;
-    border: 1px solid rgba(123, 74, 226, 0.5);
-    width: 12.813vw;
-    height: 10.417vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-    
-    .codeicon {
-        height: auto;
-        width: 30%;
-        margin-top: 14%;
-    }
+    /*card dev*/
+        .devcard {
+            position: relative;
+            border-radius: 16px;
+            border: 1px solid rgba(123, 74, 226, 0.5);
+            width: 12.813vw;
+            height: 10.417vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+            
+            .codeicon {
+                height: auto;
+                width: 30%;
+                margin-top: 14%;
+            }
 
-    .devcard-texto {
-          display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        margin-bottom: 32px;
-        font-size: 0.833vw;
-    }
+            .devcard-texto {
+                  display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                margin-bottom: 32px;
+                font-size: 0.833vw;
+            }
 
-    .programador{ 
-        font-weight: bold;
-        font-size: 1.667vw;
-    }
+            .programador{ 
+                font-weight: bold;
+                font-size: 1.667vw;
+            }
 
 
-/*card meio*/
-.projectscard {
-    position: relative;
-    border-radius: 16px;
-    background-color: rgba(123, 74, 226, 0.1);
-    width: 12.813vw;
-    height: 10.417vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
+    /*card meio*/
+        .projectscard {
+            position: relative;
+            border-radius: 16px;
+            background-color: rgba(123, 74, 226, 0.1);
+            width: 12.813vw;
+            height: 10.417vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    .projectsicon {
-        height: auto;
-        width: 30%;
-        margin-top: 14%;
-    }
+            .projectsicon {
+                height: auto;
+                width: 30%;
+                margin-top: 14%;
+            }
 
-    .projeto-texto {
+            .projeto-texto {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                margin-bottom: 32px;
+                font-size: 0.833vw;
+            }
+            
+
+            .trabalhos{
+                font-weight: bold;
+                font-size: 1.667vw;
+            }
+
+
+    /*card designer*/
+        .designcard {
+            position: relative;
+            border-radius: 16px;
+            border: 1px solid rgba(123, 74, 226, 0.5);
+            width: 12.813vw;
+            height: 10.417vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .designicon {
+                  height: auto;
+                width: 30%;
+                margin-top: 14%;
+            }
+
+            .design-texto {
+                  display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                margin-bottom: 32px;
+                font-size: 0.833vw;
+            }
+
+            .designer {
+                font-weight: bold;
+                font-size: 1.667vw;
+            }
+        }
+
+/*parte de baixo*/
+    /*Experiencias*/
+    .fundo-experiencia {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        align-content: center;
-        justify-items: center;
-        margin-bottom: 32px;
-        font-size: 0.833vw;
-    }
-    
-
-    .trabalhos{
-        font-weight: bold;
-        font-size: 1.667vw;
+        justify-content: space-around;
+        border-radius: 16px;
+        background-color: #7B4AE21A;
+        width: 46.771vw;
+        height: 5.729vw;
+        margin: 0 auto; /* Centralizar horizontalmente */
     }
 
 
-/*card designer*/
-.designcard {
-    position: relative;
-    border-radius: 16px;
-    border: 1px solid rgba(123, 74, 226, 0.5);
-    width: 12.813vw;
-    height: 10.417vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
+    /*devfront*/
+        .dev-front {
+            position: relative;
+            color: #7B4AE2;
+            text-align: center;
+        }
 
-    .designicon {
-          height: auto;
-        width: 30%;
-        margin-top: 14%;
-    }
+            .desenvolvedor {
+                  position: relative;
+                font-size: 0.833vw;
+            }
 
-    .design-texto {
-          display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        margin-bottom: 32px;
-        font-size: 0.833vw;
-    }
+            .front-end {
+                margin: 0;
+                  position: relative;
+                  font-size: 1.667vw;
+                  font-family: inherit;
+            }
 
-    .designer {
-        font-weight: bold;
-        font-size: 1.667vw;
-    }
-}
+
+    /*projetos e experiencia*/
+        .dezenas-de-projetos-e-xp {
+            position: relative;
+            color: #7B4AE2;
+            text-align: center;
+        }
+
+            .dezenas-de-projetos {
+                  position: relative;
+                font-size: 0.833vw;
+            }
+
+            .experiencias {
+                margin: 0;
+                  position: relative;
+                  font-size: 1.667vw;
+            }
+
+
+    /*designer freelancer*/
+        .designer-freelancer {
+              position: relative;
+            color: #7B4AE2;
+            text-align: center;
+        }
+
+            .freelancer{
+              position:relative;
+              font-size: 0.833vw;
+            }
+
+            .ui{
+              margin: 0;
+              position: relative;
+              font-size: 1.667vw;
+            }

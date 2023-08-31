@@ -15,57 +15,62 @@
     gap: 15%;
   }
 
-  .washington {
-    display: relative;
-    position: relative;
-    width: 23.958vw;
-    height: 25.938vw;
-  }
+  /*imagem*/
+    .washington {
+      display: relative;
+      position: relative;
+      width: 23.958vw;
+      height: 25.938vw;
+    }
 
+/*Informações na direita para versão web*/
   .direita-web{
     display: flex;
     flex-direction: column;
   }
 
-  .about-block {
-      display: flex;
-    	border-radius: 16px;
-    	background-color: #7B4AE21A;
-    	width: 8.333vw;
-    	height: 2.344vw;
-      align-items: center;
-      justify-content: center;
-  }
+  /*icone roxo*/
+    .about-block {
+        display: flex;
+      	border-radius: 16px;
+      	background-color: #7B4AE21A;
+      	width: 8.333vw;
+      	height: 2.344vw;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .sobre-mim {
-      font-size: 1.042vw;
-      color: #7B4AE2;
-      text-align: center;
-  }
+    .sobre-mim {
+        font-size: 1.042vw;
+        color: #7B4AE2;
+        text-align: center;
+    }
 
-  .washington-web {
-    position: relative;
-    color: #ffff;
-    text-align: left;
-    font-size: 2.500vw;
-    display: inline;
-    white-space: nowrap;
-    margin-left: 0;
-  }
+  /*Textos para versão web*/
+    .washington-web {
+      position: relative;
+      color: #ffff;
+      text-align: left;
+      font-size: 2.500vw;
+      display: inline;
+      white-space: nowrap;
+      margin-left: 0;
+    }
 
-  .texto-sobre-web{
-    font-size: 0.938vw;
-    color: #FFFFFF80;
-    white-space: nowrap;
-    margin-left: 0;
-  }
+    .texto-sobre-web{
+      font-size: 0.938vw;
+      color: #FFFFFF80;
+      white-space: nowrap;
+      margin-left: 0;
+    }
 
-  .nome-washington {
-    display: none;
-  }
+  /*Conteúdo omitido*/
+    .nome-washington {
+      display: none;
+    }
 
-  .texto-sobre {
-    display: none;
-  }
+    .texto-sobre {
+      display: none;
+    }
 
 }
